@@ -63,8 +63,6 @@ while (x < 5){
 
     x++;
 
-    
-
 }
 
 document.getElementById("risultato").innerText = `${somma}` */
@@ -72,3 +70,25 @@ document.getElementById("risultato").innerText = `${somma}` */
 /* Snack-3 */
 
 
+/* let numeroUtente = parseInt(prompt("Inserisci un numero"));
+
+let x = 0
+
+while(x < numeroUtente){
+
+    const contNumeri = []
+
+    for(let i = 0; i < 10; i++){
+
+        let numeriRandom = Math.floor(Math.random()* 100) + 1;
+
+        contNumeri.push(numeriRandom)
+
+    }
+
+    x++;
+
+        console.log(contNumeri)
+}
+
+ */
