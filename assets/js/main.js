@@ -94,24 +94,24 @@ while(x < numeroUtente){
  */
 
 /* Snack-4 */
-/* 
+
 let listaNomi = ["Andrea", "Nicolo", "Leonardo"];
 let i=0;
 let soldatino = false;
 
 let nome = prompt("Inserisci il nome");
 
-while(i < listaNomi.length)
-{
-    if(nome != listaNomi[i])
-    {
-        soldatino = false;
-    }
-    else
-    {
-        soldatino = true;
-        break;
-    }
+while(i < listaNomi.length){
+    
+    if(nome === listaNomi[i]){
 
+        soldatino = true;
+    
+        console.log(soldatino)
+
+        break;
+
+    }
+   
     i++;
-} */
+}
